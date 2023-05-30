@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  border-radius: 5px;
+  width: 100vw;
+  height: 100vh;
+  background: teal;
+  position: relative;
+}
+
+.resizeable-box {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 3px;
+  min-width: 15px;
+  min-height: 15px;
+}
+
+.resizer {
+  position: absolute;
+  background: white;
+}
+
+.rr {
+  cursor: col-resize;
+  height: 100%;
+  right: 0;
+  top: 0;
+  width: 2px;
+}
+
+.rt {
+  cursor: row-resize;
+  height: 2px;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.rb {
+  cursor: row-resize;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.rl {
+  cursor: col-resize;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 2px;
+}
